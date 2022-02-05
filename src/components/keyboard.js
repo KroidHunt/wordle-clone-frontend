@@ -24,7 +24,7 @@ const KeyboardBtn = ({ display, val, state, handleKeyPress }) => {
     borderRadius: "4px",
     cursor: "pointer",
     userSelect: "none",
-    width: "1.8rem",
+    width: "1.5rem",
     textAlign: "center",
   };
   return (
