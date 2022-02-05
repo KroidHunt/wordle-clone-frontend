@@ -7,7 +7,7 @@ const style = {
   paddingRight: "1rem",
   width: "fit-content",
   margin: "auto",
-  marginBottom: "0",
+  marginBottom: "10px",
   marginTop: "0",
 };
 

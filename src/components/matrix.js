@@ -119,6 +119,10 @@ const Matrix = ({ size = 5, theme }) => {
     return () => window.removeEventListener("keydown", handleKeyPress);
   }, [handleKeyPress]);
 
+  useEffect(() => {
+    setMsg("New word to guess");
+  }, []);
+
   return (
     <div>
       <Box

@@ -1,4 +1,4 @@
-import { DarkMode, HelpOutline, LightMode } from "@mui/icons-material";
+import { DarkMode, HelpOutline, LightMode, Refresh } from "@mui/icons-material";
 import { IconButton, Toolbar, Typography } from "@mui/material";
 import AppBar from "@mui/material/AppBar";
 
@@ -21,7 +21,7 @@ const NavBar = ({ toggleTheme, theme, toggleHelp }) => {
           <HelpOutline />
         </IconButton>
         <Typography
-          variant="h4"
+          variant="h6"
           sx={{
             fontWeight: "700",
             flexGrow: "1",
@@ -31,6 +31,12 @@ const NavBar = ({ toggleTheme, theme, toggleHelp }) => {
         >
           WORDLE CLONE
         </Typography>
+        <IconButton
+          aria-label="reload"
+          onClick={() => window.location.reload()}
+        >
+          <Refresh />
+        </IconButton>
         <IconButton aria-label="theme" onClick={toggleTheme}>
           {theme === "dark" ? <LightMode /> : <DarkMode />}
         </IconButton>
