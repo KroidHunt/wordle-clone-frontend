@@ -1,8 +1,8 @@
 # **WORDLE** clone
 
-Inspired by <a href="https://www.powerlanguage.co.uk/wordle/">Wordle by powerlanguage</a>
+Inspired by <a target="_blank" href="https://www.powerlanguage.co.uk/wordle/">Wordle by powerlanguage</a>
 
-Play this clone <a href="https://kroidhunt.github.io/wordle-clone-frontend/">here</a>
+Play this clone <a target="_blank" href="https://kroidhunt.github.io/wordle-clone-frontend/">here</a>
 
 Always on Hardmode 😈
 
